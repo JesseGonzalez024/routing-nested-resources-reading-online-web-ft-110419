@@ -2095,3 +2095,10 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 1029ms (Views: 977.6ms | ActiveRecord: 2.6ms)
 
 
+Started GET "/authors/1" for 47.204.1.234 at 2020-02-10 00:47:32 +0000
+Cannot render console from 47.204.1.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (undefined local variable or method ` ' for AuthorsController:Class):
+  
+app/controllers/authors_controller.rb:12:in `<class:AuthorsController>'
+app/controllers/authors_controller.rb:1:in `<top (required)>'
